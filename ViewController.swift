@@ -50,6 +50,9 @@ class ViewController: UIViewController , UIPickerViewDataSource , UIPickerViewDe
         successMessage.isHidden = false
         
         self.buyNowBtn.isHidden = true
+    
+    // better way - for subview in view.subview{subview.ishidden = true}
+    
     }
     
     //////////
